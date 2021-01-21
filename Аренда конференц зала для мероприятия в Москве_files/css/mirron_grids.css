@@ -1,0 +1,117 @@
+@charset "UTF-8";
+
+.grid100p {
+	width:100%;
+	}
+
+
+
+.pd5t {padding-top:5px;}
+.pd5b {padding-bottom:5px;}
+.pd5r {padding-right:5px;}
+.pd5l {padding-left:5px;}
+
+.pd10t {padding-top:10px;}
+.pd10b {padding-bottom:10px;}
+.pd10r {padding-right:10px;}
+.pd10l {padding-left:10px;}
+
+.pd20 {padding:20px;}
+.pd20t {padding-top:20px;}
+.pd20b {padding-bottom:20px;}
+.pd20r {padding-right:20px;}
+.pd20l {padding-left:20px;}
+
+.pd30t {padding-top:30px;}
+.pd30b {padding-bottom:30px;}
+.pd30r {padding-right:30px;}
+.pd30l {padding-left:30px;}
+.pd30rl {padding-right:30px; padding-left:30px;}
+
+.pd50t {padding-top:50px;}
+.pd50b {padding-bottom:50px;}
+.pd50r {padding-right:50px;}
+.pd50l {padding-left:50px;}
+
+.pd60t {padding-top:60px;}
+.pd60b {padding-bottom:60px;}
+.pd60r {padding-right:60px;}
+.pd60l {padding-left:60px;}
+
+
+
+.mr0 {margin:0px;}
+
+.mr5t {margin-top:5px;}
+.mr5b {margin-bottom:5px;}
+.mr5r {margin-right:5px;}
+.mr5l {margin-left:5px;}
+
+.mr10t {margin-top:10px;}
+.mr10b {margin-bottom:10px;}
+.mr10r {margin-right:10px;}
+.mr10l {margin-left:10px;}
+
+.mr20t {margin-top:20px;}
+.mr20b {margin-bottom:20px;}
+.mr20r {margin-right:20px;}
+.mr20l {margin-left:20px;}
+
+.mr30t {margin-top:30px;}
+.mr30b {margin-bottom:30px;}
+.mr30r {margin-right:30px;}
+.mr30l {margin-left:30px;}
+.mr30rl {margin-right:30px; margin-left:30px;}
+
+.mr50t {margin-top:50px;}
+.mr50b {margin-bottom:50px;}
+.mr50r {margin-right:50px;}
+.mr50l {margin-left:50px;}
+
+.mr60t {margin-top:60px;}
+.mr60b {margin-bottom:60px;}
+.mr60r {margin-right:60px;}
+.mr60l {margin-left:60px;}
+
+
+
+.clear {clear:both; font-size:1px;}
+
+.textCenter {text-align:center;}
+.textLeft {text-align:left;}
+.textRight {text-align:right;}
+
+.textTop {vertical-align:top;}
+.textBottom {vertical-align:bottom;}
+.textMiddle {vertical-align:middle;}
+
+
+.gray {color:#999999;}
+.gray A:link, .gray A:active, .gray A:visited {color: #999999; text-decoration: underline;}
+.gray A:hover {color: #FF0000; text-decoration: none;}
+
+.white {color:#FFFFFF;}
+.white A:link, .white A:active, .white A:visited {color: #FFFFFF; text-decoration: underline;}
+.white A:hover {color: #FF0000; text-decoration: none;}
+
+/*
+     FILE ARCHIVED ON 09:46:57 Feb 14, 2019 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 12:52:05 Nov 03, 2020.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  LoadShardBlock: 1332.039 (3)
+  PetaboxLoader3.datanode: 1389.17 (5)
+  CDXLines.iter: 26.312 (3)
+  load_resource: 3614.449 (2)
+  esindex: 0.016
+  RedisCDXSource: 20.537
+  PetaboxLoader3.resolve: 964.833 (4)
+  exclusion.robots.policy: 0.193
+  captures_list: 1384.432
+  exclusion.robots: 0.225
+*/

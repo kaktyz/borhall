@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+.itemRequest h2 {
+	font-size:22px;
+	background-image: url(/web/20190210064704im_/http://borodino-hall.ru/_/_.gif);
+	font-weight:bold;
+	}
+
+.mirron_request_width100 {width:100%;}
+.mx_friend_widthCaptcha {width:100px; text-align:center;}
+.mirron_request_req {color:#FF0000; font-weight: bold;}
+.mirron_request_noreq {color:#999999;}
+.mirron_request_error {color:#FF0000;}
+.mirron_request_table TD {padding:5px; font-size:12px; vertical-align:middle;}
+.mirron_request_table INPUT, .mirron_request_table TEXTAREA {
+	margin:0px;
+	border:1px solid #CCCCCC;
+	font-size:18px;
+	background-image: url(/web/20190210064704im_/http://borodino-hall.ru/_/_form/input02.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+	}
+
+.mirron_request_form {padding:0px; margin:0px;}
+.mirron_request_pd0 {padding:0px; margin:0px;}
+
+INPUT.mirron_request_button {
+	margin:0px;
+	padding:3px;
+	font-weight:bold;
+	font-size:12px;
+	background-image: url(/web/20190210064704im_/http://borodino-hall.ru/_/_.gif);
+	background-color:#CCCCCC;
+	color:#000000;
+	}
+
+#mirron_request_hide a, #mirron_request_show a {text-decoration: underline;}
+
+
+/*
+     FILE ARCHIVED ON 06:47:04 Feb 10, 2019 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 12:52:01 Nov 03, 2020.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  exclusion.robots: 0.132
+  esindex: 0.01
+  PetaboxLoader3.datanode: 429.885 (5)
+  exclusion.robots.policy: 0.122
+  RedisCDXSource: 13.248
+  PetaboxLoader3.resolve: 410.858 (2)
+  CDXLines.iter: 24.563 (3)
+  LoadShardBlock: 296.645 (3)
+  load_resource: 645.279 (2)
+  captures_list: 338.71
+*/

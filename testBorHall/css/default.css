@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+
+.theme-default .nivoSlider {
+	position:relative;
+	background:#fff url(/web/20190215214905im_/http://borodino-hall.ru/system/css/default/loading.gif) no-repeat 50% 50%;
+}
+.theme-default .nivoSlider img {
+	position:absolute;
+	top:0px;
+	left:0px;
+	display:none;
+}
+
+
+.theme-default .nivo-caption {
+    font: 14px Arial, Verdana, sans-serif;
+}
+
+.theme-default .nivo-controlNav.nivo-thumbs-enabled {
+	width: 100%;
+}
+.theme-default .nivo-controlNav.nivo-thumbs-enabled a {
+	width: auto;
+	height: auto;
+	background: none;
+	margin-bottom: 5px;
+}
+.theme-default .nivo-controlNav.nivo-thumbs-enabled img {
+	display: block;
+	width: 120px;
+	height: auto;
+}
+
+/*
+     FILE ARCHIVED ON 21:49:05 Feb 15, 2019 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 12:52:01 Nov 03, 2020.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 624.841
+  exclusion.robots: 0.134
+  exclusion.robots.policy: 0.125
+  RedisCDXSource: 22.853
+  esindex: 0.013
+  LoadShardBlock: 579.063 (3)
+  PetaboxLoader3.datanode: 244.968 (5)
+  CDXLines.iter: 20.073 (3)
+  PetaboxLoader3.resolve: 432.31 (3)
+  load_resource: 572.272 (2)
+*/

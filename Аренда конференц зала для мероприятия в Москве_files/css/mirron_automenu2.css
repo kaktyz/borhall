@@ -1,0 +1,69 @@
+@charset "UTF-8";
+
+TABLE.ogl {
+	border-top: 1px solid #CCCCCC;
+	}
+TABLE.ogl TD {
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-right:10px;
+	padding-left:10px;
+	vertical-align:top;
+	text-align:left;
+	}
+TABLE.ogl TD.i {
+	width:1%;
+	padding-left:10px;
+	padding-right:0px;
+	}
+TABLE.ogl TD.i IMG {
+	padding:0px;
+	margin:0px;
+
+	}
+TABLE.ogl TD H2, TABLE.ogl TD H3 {
+	margin:0px;
+	}
+TABLE.ogl TD B {
+	font-size:18px;
+	font-weight:bold;
+	}
+TABLE.ogl TD a:link, TABLE.ogl TD a:active, TABLE.ogl TD a:visited {color: #847d6b; text-decoration: underline;}
+TABLE.ogl TD a:hover {color: #000000; text-decoration: none;}
+DIV.ogl {
+	padding:0px;
+	border-top: 1px solid #CCCCCC;
+	font-size:1px;
+	height:1px;
+	}
+TABLE.ogl TD SPAN.grh {
+	color:#999999;
+	font-size:11px;
+	}
+TABLE.ogl TD DIV.subtext {
+	color:#333333;
+	font-size:14px;
+	padding-top:5px;
+	}
+
+/*
+     FILE ARCHIVED ON 00:55:43 Feb 07, 2019 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 12:52:01 Nov 03, 2020.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  LoadShardBlock: 489.374 (3)
+  PetaboxLoader3.datanode: 670.608 (5)
+  CDXLines.iter: 29.068 (3)
+  load_resource: 665.532 (2)
+  esindex: 0.015
+  RedisCDXSource: 49.925
+  PetaboxLoader3.resolve: 409.452 (3)
+  exclusion.robots.policy: 0.214
+  captures_list: 574.402
+  exclusion.robots: 0.227
+*/

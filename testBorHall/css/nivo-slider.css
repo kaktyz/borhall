@@ -1,0 +1,131 @@
+@charset "UTF-8";
+
+
+/* The Nivo Slider styles */
+.nivoSlider {
+	position:relative;
+	width:100%;
+	height:auto;
+}
+.no-caption .nivoSlider{
+    overflow: hidden;
+}
+.nivoSlider img {
+	position:absolute;
+	top:0px;
+	left:0px;
+	max-width: none;
+}
+.nivo-main-image {
+	display: block !important;
+	position: relative !important; 
+	width: 100% !important;
+}
+
+/* If an image is wrapped in a link */
+.nivoSlider a.nivo-imageLink {
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+	border:0;
+	padding:0;
+	margin:0;
+	z-index:6;
+	display:none;
+}
+/* The slices and boxes in the Slider */
+.nivo-slice {
+	display:block;
+	position:absolute;
+	z-index:5;
+	height:100%;
+	top:0;
+}
+.nivo-box {
+	display:block;
+	position:absolute;
+/*	z-index:5;*/
+	overflow:hidden;
+}
+.nivo-box img { display:block; }
+
+/* Caption styles */
+.nivo-caption {
+	position:absolute;
+	right:0;
+	top: 100%;
+	background:#262626;
+    border: 1px #343434 solid;
+	color:#fff;
+	width: 360px;
+    height: 152px;
+	z-index:8;
+	padding: 15px 20px 10px 20px;
+	overflow: hidden;
+	display: none;
+}
+.no-caption .nivo-caption{
+   display: none!important;
+}
+.nivo-caption p{
+    color: #999;
+    font-size: 18px;
+    margin: 0;
+}
+.nivo-caption p span{
+    color: #fff;
+}
+.nivo-caption a {
+	display:inline !important;
+}
+.nivo-html-caption {
+    display:none;
+}
+/* Direction nav styles (e.g. Next & Prev) */
+.nivo-directionNav a {
+	position:absolute;
+	top:45%;
+	z-index:9;
+	cursor:pointer;
+}
+.nivo-prevNav {
+	left:0px;
+}
+.nivo-nextNav {
+	right:0px;
+}
+/* Control nav styles (e.g. 1,2,3...) */
+.nivo-controlNav {
+	text-align:center;
+	padding: 20px 0;
+}
+.nivo-controlNav a {
+	cursor:pointer;
+}
+.nivo-controlNav a.active {
+	font-weight:bold;
+}
+
+/*
+     FILE ARCHIVED ON 14:40:59 Feb 07, 2019 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 12:52:04 Nov 03, 2020.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  load_resource: 946.964 (2)
+  CDXLines.iter: 29.624 (3)
+  captures_list: 1691.914
+  LoadShardBlock: 1123.438 (3)
+  exclusion.robots: 0.197
+  PetaboxLoader3.datanode: 623.199 (5)
+  exclusion.robots.policy: 0.183
+  PetaboxLoader3.resolve: 1162.482 (3)
+  esindex: 0.017
+  RedisCDXSource: 533.528
+*/

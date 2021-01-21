@@ -1,0 +1,67 @@
+@charset "UTF-8";
+
+.mirron_reviews_gray {color:#999999;}
+a.mirron_reviews_gray:link, a.mirron_reviews_gray:active, a.mirron_reviews_gray:visited {color: #999999; text-decoration: underline;}
+a.mirron_reviews_gray:hover {text-decoration: none;}
+.mirron_reviews_image {border: 1px solid #CCCCCC; margin-right:5px; margin-bottom:5px; margin-top:2px; }
+.mirron_reviews_illustration {border: 0px solid #CCCCCC; margin-left:10px; margin-bottom:10px; margin-top:2px; }
+TABLE.mirron_reviews_user {border-top: 1px solid #CCCCCC;}
+TABLE.mirron_reviews_user TD {padding:6px; padding-top:3px; padding-bottom:3px; border-bottom: 1px solid #CCCCCC; vertical-align:top;}
+
+DIV.mirron_reviews_simple {color:#000000; font-size:12px;}
+DIV.mirron_reviews_simple a:link, DIV.mirron_reviews_simple a:active, DIV.mirron_reviews_simple a:visited {color: #666666; text-decoration: underline;}
+DIV.mirron_reviews_simple a:hover {color: #000000; text-decoration: none;}
+DIV.mirron_reviews_simple DIV.pgs {padding-top:15px; font-size:12px;}
+DIV.mirron_reviews_simple DIV.rwd {padding-top:10px; font-size:12px;}
+DIV.mirron_reviews_simple DIV.user {color:#999999; font-size:10px;}
+
+.mirron_reviews_width100 {width:100%;}
+.mirron_reviews_widthCaptcha {width:100px; text-align:center;}
+.mirron_reviews_req {color:#FF0000; font-weight: bold;}
+.mirron_reviews_noreq {color:#999999;}
+.mirron_reviews_error {color:#FF0000;}
+.mirron_reviews_table TD {padding:5px; font-size:12px;}
+.mirron_reviews_form {padding:0px; margin:0px;}
+.mirron_reviews_table INPUT, .mirron_reviews_table TEXTAREA {
+	margin:0px;
+	font-size:18px;
+	border:1px solid #CCCCCC;
+	background-image: url(/web/20190218121229im_/http://borodino-hall.ru/_/_form/input02.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+	border: 1px solid #CCCCCC; 
+	}
+.mirron_reviews_header {padding:0px; margin:0px;}
+.mirron_reviews_comment {color:#999999; font-size: 12px;}
+.mirron_reviews_comment A {color:#999999;}
+.mirron_reviews_pd0 {padding:0px; margin:0px;}
+
+.mirron_reviews_table INPUT.mirron_reviews_button {
+	padding:3px;
+	font-weight:bold;
+	font-size:12px;
+	background-image: url(/web/20190218121229im_/http://borodino-hall.ru/_/_.gif);
+	background-color:#CCCCCC;
+	}
+
+/*
+     FILE ARCHIVED ON 12:12:29 Feb 18, 2019 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 12:52:02 Nov 03, 2020.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  LoadShardBlock: 866.641 (3)
+  exclusion.robots: 0.386
+  esindex: 0.013
+  PetaboxLoader3.resolve: 338.516 (3)
+  captures_list: 918.546
+  CDXLines.iter: 23.515 (3)
+  PetaboxLoader3.datanode: 1972.295 (5)
+  load_resource: 1675.914 (2)
+  RedisCDXSource: 23.402
+  exclusion.robots.policy: 0.375
+*/

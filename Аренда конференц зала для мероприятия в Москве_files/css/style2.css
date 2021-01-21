@@ -1,0 +1,531 @@
+@charset "UTF-8";
+
+/* Layout */
+@font-face {
+    font-family: 'arial_narrowregular';
+    src: url('/web/20190215224525im_/http://borodino-hall.ru/system/fonts/arialn-font.eot');
+    src: url('/web/20190215224525im_/http://borodino-hall.ru/system/fonts/arialn-font.eot#iefix') format('embedded-opentype'),
+    url('/web/20190215224525im_/http://borodino-hall.ru/system/fonts/arialn-font.woff') format('woff'),
+    url('/web/20190215224525im_/http://borodino-hall.ru/system/fonts/arialn-font.ttf') format('truetype'),
+    url('/web/20190215224525im_/http://borodino-hall.ru/system/fonts/arialn-font.svg#arial_narrowregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'arial_narrowbold';
+    src: url('/web/20190215224525im_/http://borodino-hall.ru/system/fonts/arialnb-font.eot');
+    src: url('/web/20190215224525im_/http://borodino-hall.ru/system/fonts/arialnb-font.eot#iefix') format('embedded-opentype'),
+    url('/web/20190215224525im_/http://borodino-hall.ru/system/fonts/arialnb-font.woff') format('woff'),
+    url('/web/20190215224525im_/http://borodino-hall.ru/system/fonts/arialnb-font.ttf') format('truetype'),
+    url('/web/20190215224525im_/http://borodino-hall.ru/system/fonts/arialnb-font.svg#arial_narrowbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+    color: #000;
+    font: 12px Arial, Verdana, sans-serif;
+    background: url("/web/20190215224525im_/http://borodino-hall.ru/_2/brh-body-bg.gif");
+}
+p{
+    line-height: 1.25em;
+}
+h1{
+    font-family: "Arial Narrow", arial_narrowregular, Arial, sans-serif;
+    font-size: 2.83em;
+    margin: .37em 0;
+    line-height: 35px;
+    color: #847d6b;
+}
+h2, h3, h4, h5, h6{
+    font-family: "Arial Narrow", arial_narrowregular, Arial, sans-serif;
+    margin: .55em 0;
+    font-weight: normal;
+}
+h3, h4, h5, h6{
+    font-size: 1.5em;
+}
+#bhl-main{
+    width: 980px;
+    margin: 0 auto;
+}
+.bhl-clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+#bhl-wrapper{
+    background: url(img/background.jpg) 0 0 repeat;
+    min-width: 980px;
+   
+   
+    /* background-image: url("https://i.pinimg.com/736x/37/5b/d3/375bd3da75624abbe4388a8ceebda4db.jpg"); Путь к фоновому рисунку */
+    /* background-repeat: repeat-y, repeat-y; */
+}
+
+/* End layout */
+/* Header */
+
+#bhl-header{
+    padding: 25px 0 30px 0;
+}
+.bhl-logo{
+    display: block;
+    float: left;
+}
+.bhl-logo img{
+    display: block;
+    margin: 0;
+}
+.bhl-top-search{
+    float: right;
+    margin-top: 15px;
+}
+.bhl-top-search A {
+	color:#FFFFFF;
+	}
+.bhl-top-search .bhl-input-search {
+    color: #C4C1C0;
+    border: 1px solid #343434;
+    background: #262626;
+    width: 148px;
+    margin: 0;
+    padding: 7px 5px 8px;
+}
+.bhl-search-btn{
+    background: #1c1c1c url("/web/20190215224525im_/http://borodino-hall.ru/_2/bhl-btn-search-bg.gif") repeat-x;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 20px;
+    height: 32px;
+    vertical-align: top;
+    color: #fff;
+    border: 0 none;
+    padding: 0 15px;
+    -webkit-transition: background 0.25s ease;
+    -moz-transition: background 0.25s ease;
+    -o-transition: background 0.25s ease;
+    transition: background 0.25s ease;
+}
+.bhl-search-btn:hover {
+    background: #938C77;
+    color: white;
+}
+/* End header */
+
+/* Navigation menu */
+
+.bhl-navigation-menu{
+    position: relative;
+    z-index: 15;
+}
+.bhl-navigation-menu > ul > li{
+    float: left;
+    padding: 10px 0;
+    margin: 0;
+    position: relative;
+}
+.bhl-navigation-menu > ul{
+    float: left;
+    list-style: none;
+    width: 100%;
+    background: #1c1c1c url("/web/20190215224525im_/http://borodino-hall.ru/_2/bhl-menu-bg.gif") repeat-x;
+    border-top: 1px #343434 solid;
+    margin: 0;
+    padding: 0;
+}
+.bhl-navigation-menu > ul > li > a{
+    display: inline-block;
+    font-family: "Arial Narrow", arial_narrowbold, Arial, sans-serif;
+    color: #fff;
+    padding: 0 13px;
+    font-size: 18px;
+    line-height: 35px;
+    background: url("/web/20190215224525im_/http://borodino-hall.ru/_2/bhl-separator-menu.gif") left top repeat-y;
+    text-decoration: none;
+}
+.bhl-navigation-menu > ul > li:first-child a{
+    background: none;
+}
+.bhl-navigation-menu > ul > li > span{
+    position: absolute;
+    display: none;
+    left: 30px;
+    top: 76%;
+    z-index: 10;
+    width: 20px;
+    height: 20px;
+    text-indent: -9999px;
+    background: url("/web/20190215224525im_/http://borodino-hall.ru/_2/bhl-menu-arrow.png") top center no-repeat;
+}
+.bhl-navigation-menu > ul > li:hover > a,
+.bhl-navigation-menu > ul li a:hover{
+    color: #746c5d;
+}
+.bhl-navigation-menu > ul li > ul{
+    display: none;
+    position: absolute;
+    z-index: 9;
+    list-style: none;
+    margin: -2px 0 0 0;
+    padding: 20px 10px 15px 20px;
+    left: 15px;
+    top: 100%;
+    min-width: 160px;
+    max-width: 180px;
+    border-top: 1px #847d6b solid;
+    background: #2b2b2b;
+}
+.bhl-navigation-menu > ul li > ul li{
+    margin-bottom: 9px;
+}
+.bhl-navigation-menu > ul li > ul li a{
+    color: #fff;
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: bold;
+}
+.bhl-navigation-menu > ul li:hover > ul,
+.bhl-navigation-menu > ul li:hover > span{
+    display: block;
+}
+/* End navigation menu */
+
+/* Footer */
+
+#bhl-footer{
+    background: #2b2a2a;
+    padding: 15px;
+}
+#bhl-footer > div{
+    float: left;
+}
+#bhl-footer div:first-child{
+    width: auto;
+    overflow: hidden;
+}
+#bhl-footer div:first-child img{
+    margin-right: 35px;
+}
+.bhl-footer-info{
+    margin-right: 30px;
+    max-width: 410px;
+}
+#bhl-footer p{
+    color: #fff;
+    font-size: 1.5em;
+    margin: 0 0 21px;
+    word-spacing: -2.5px;
+}
+#bhl-footer .bhl-copyrights{
+    font-size: 11px;
+    color: #fff;
+    word-spacing: normal;
+    margin: 0;
+}
+.bhl-footer-info a{
+    color: #666;
+    font-size: 11px;
+}
+.bhl-footer-info a:hover{
+    text-decoration: underline;
+}
+/* End footer */
+
+/* Home page */
+
+.bhl-preview-blc{
+    background: #2b2a2a;
+    padding: 10px 10px 0 10px;
+    margin-bottom: 40px;
+    border-top: 1px #343434 solid;
+}
+.bhl-preview-blc h2{
+    font-size: 34px;
+    line-height: 35px;
+    color: #847d6b;
+    font-family: "Arial Narrow", arial_narrowregular, Arial, sans-serif;
+    margin: 0 0 12px 10px;
+    font-weight: normal;
+}
+.bhl-preview-blc h2 span{
+    color: #fff;
+}
+.bhl-preview-blc img{
+    margin: 0 10px 18px 10px;
+    float: left;
+    border: 0 none;
+}
+.bhl-preview-blc > a{
+
+}
+.bhl-preview-item{
+    width: 220px;
+    padding: 0 10px;
+    float: left;
+    margin-bottom: 20px;
+}
+
+.bhl-preview-item img{
+    margin: 0 0 18px;
+    display: block;
+    max-width: 100%;
+    float: none;
+}
+.bhl-button{
+    padding: 0 9px 0 11px;
+    color: #e6d7b0;
+    font-size: 12px;
+    font-weight: bold;
+    background: #1c1c1c url("/web/20190215224525im_/http://borodino-hall.ru/_2/bhl-btn-bg.gif") 0 0 repeat-x;
+    display: inline-block;
+    line-height: 30px;
+    -webkit-transition: background, color, 0.25s ease;
+    -moz-transition: background, color, 0.25s ease;
+    -o-transition: background, color, 0.25s ease;
+    transition: background, color, 0.25s ease;
+}
+.bhl-button:hover {
+    background: #746C5D;
+    color: white;
+}
+.bhl-preview-item p{
+    font-size: .95em;
+    color: #fff;
+    margin: 18px 0;
+    min-height: 70px;
+    clear: both;
+}
+.bhl-2-col-content-block{
+    background: #fff;
+    padding: 0;
+    margin-bottom: 40px;
+    border-bottom: 10px #eee6d1 solid;
+}
+.bhl-2-col-content-block > div{
+    background: #fff;
+    float: left;
+    width: 361px;
+    padding: 0 20px;
+    margin-left: -1px;
+}
+.bhl-2-col-content-block > :first-child{
+    width: 538px;
+    border-right: 1px #eee6d1 solid;
+    padding-bottom: 1em;
+    margin-left: 0;
+}
+.bhl-2-col-content-block .bhh-col2{
+    border-left: 1px #eee6d1 solid;
+}
+.bhl-col1 > div{
+    margin-bottom: 15px;
+}
+.bhl-2-col-content-block h3{
+    font-size: 34px;
+    line-height: 35px;
+    color: #847d6b;
+    margin: 15px 0 10px 0;
+}
+.bhl-2-col-content-block p{
+    margin: 0 0 1em;
+}
+.bhl-2-col-content-block .bhh-col2-text H1, 
+.bhl-2-col-content-block .bhh-col2-text H2, 
+.bhl-2-col-content-block .bhh-col2-text H3 {
+    margin: 0;
+    background: url("/web/20190215224525im_/http://borodino-hall.ru/_2/bhl-list-bullet.png") 0 3px no-repeat;
+    padding: 0 0 15px 20px;
+    font-size: 1.5em;
+    line-height: 20px;
+}
+
+.bhl-button.bhl-details-btn{
+    padding: 0 20px;
+}
+/* End home page */
+
+/* Slider */
+
+.slider-wrapper {
+    width: 100%;
+    height: 645px;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+    background:#262626;
+    margin-bottom: 40px;
+}
+.slider-wrapper.no-caption{
+    height: auto;
+}
+.bhl-nivo-html-caption{
+    display: none;
+}
+.nivo-caption .bhl-button{
+    margin-top: 15px;
+    display: inline-block!important;
+}
+.bhl-banner-link{
+    display: block;
+}
+.bhl-slider-banner{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 538px;
+    height: 145px;
+    background: #fff;
+    z-index:8;
+    padding: 15px 20px 10px 20px;
+    border-top: 10px #eee6d1 solid;
+}
+.bhl-banner-link{
+    background: url("/web/20190215224525im_/http://borodino-hall.ru/_2/bhl-link-banner-img.png") left top no-repeat;
+    width: 34px;
+    height: 115px;
+    display: block;
+    float: left;
+    margin: 15px 15px 0 0;
+}
+.bhl-box-text{
+    overflow: hidden;
+    padding: 15px 0 0 0;
+}
+.bhl-box-text span{
+    font-family: "Arial Narrow Bold", arial_narrowbold, Arial, sans-serif;
+    text-transform: uppercase;
+    color: #847d6b;
+    font-size: 34px;
+    line-height: 38px;
+}
+.bhl-box-text p{
+    margin: 0;
+    color: #000;
+    font-size: 28px;
+    line-height: 32px;
+    font-family: "Arial Narrow", arial_narrowregular, Arial, sans-serif;
+}
+/* Control nav styles (e.g. 1,2,3...) */
+.nivo-controlNav {
+    position:absolute;
+    right:10px;
+    bottom: 0;
+    overflow:hidden;
+    z-index: 999;
+}
+.nivo-controlNav a {
+    position:relative;
+    z-index:99;
+    cursor:pointer;
+    float:left;
+    margin-left:3px;
+    display:block !important;
+    width: 23px;
+    height: 8px;
+    border: 1px #343434 solid;
+    text-indent:-999em;
+    -webkit-transition: background 0.3s ease;
+    -moz-transition: background 0.3s ease;
+    -o-transition: background 0.3s ease;
+    background: #242424;
+}
+.nivo-controlNav a.active, .nivo-controlNav a:hover {
+    background: #989181 url(/web/20190215224525im_/http://borodino-hall.ru/system/css/_/bhl-hover-slide.gif) 0 0 repeat-x;
+    border: 0 none;
+    height: 10px;
+    width: 25px;
+}
+
+/* End slider */
+
+/* Content page */
+
+.bhl-content{
+    background: #fff;
+    padding: 20px 20px 30px 20px;
+    overflow: hidden;
+}
+.bhl-content-text h2{
+    font-size: 28px;
+    line-height: 35px;
+    color: #000;
+    font-weight: normal;
+}
+
+.bhl-left-img{
+    float: left;
+    margin: 0 15px 15px 0;
+}
+.bhl-right-img{
+    float: right;
+    margin: 0 0 15px 15px;
+}
+.bhl-breadcrumbs,
+.grad {
+    overflow: hidden;
+    margin: 0 0 20px;
+    vertical-align: middle;
+    line-height: 16px;
+    min-height: 16px;
+    position: relative;
+    font-family: Arial, Verdana, sans-serif;
+}
+.bhl-breadcrumbs a,
+.grad a {
+    color: #847D6B;
+    margin-right: 6px;
+}
+.bhl-breadcrumbs a:hover,
+.grad a:hover {
+    text-decoration: underline;
+}
+.bhl-print{
+    background: url("/web/20190215224525im_/http://borodino-hall.ru/_2/_navigation/print001.gif") top left no-repeat;
+    display: block;
+    width: 18px;
+    height: 16px;
+    position: absolute;
+    text-indent: -9999px;
+    right: 0;
+    top: 0;
+}
+.bhl-top-info{
+    padding: 20px 15px 0 15px;
+    color: #847d6b;
+}
+.bhl-top-info h1{
+    color: #fff;
+}
+/* End content page */
+
+/* IE 7 styles */
+*+html .bhl-clearfix{
+    zoom: 1;
+}
+/* End IE7 Styles */
+
+
+/*
+     FILE ARCHIVED ON 22:45:25 Feb 15, 2019 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 12:52:01 Nov 03, 2020.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  LoadShardBlock: 564.287 (3)
+  exclusion.robots: 0.196
+  esindex: 0.016
+  PetaboxLoader3.resolve: 204.233 (2)
+  captures_list: 723.408
+  CDXLines.iter: 25.497 (3)
+  PetaboxLoader3.datanode: 601.166 (5)
+  load_resource: 705.814 (2)
+  RedisCDXSource: 128.669
+  exclusion.robots.policy: 0.181
+*/

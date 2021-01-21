@@ -1,0 +1,177 @@
+@charset "UTF-8";
+
+div.sbrbG {width: 100%; margin: 0 auto 0px auto; text-align: left;}
+.rbtlG, .rbtrG, .rbblG, .rbbrG {background-image: url(/web/20190210032714im_/http://borodino-hall.ru/_/_box/004.png); height: 12px; font-size: 1px;}
+.rbtlG, .rbblG {margin-right: 12px;}
+.rbtrG, .rbbrG {margin-left: 12px; margin-top: -12px;}
+.rbtrG {background-position: 100% 0;}
+.sbinG {background-color:#F0F0F0; border-left: 1px solid #D2D2D2; border-right: 1px solid #D2D2D2; padding-left: 12px; padding-right:12px; text-align:left;}
+.rbblG  {background-position: 0 -12px;}
+.rbbrG {background-position: 100% -12px;}
+
+div.sbrb01 {width:100%; margin: 0 auto 10px auto; text-align: left;}
+.rbtl01, .rbtr01, .rbbl01, .rbbr01 {background-image: url(/web/20190210032714im_/http://borodino-hall.ru/_/_box/001.gif); height: 12px; font-size: 1px;}
+.rbtl01, .rbbl01 {margin-right: 12px;}
+.rbtr01, .rbbr01 {margin-left: 12px; margin-top: -12px;}
+.rbtr01 {background-position: 100% 0;}
+.sbin01 {background-color:#FFFFFF; border-left: 1px solid #E7E7E7; border-right: 1px solid #E7E7E7; padding-left: 12px; padding-right:12px;}
+.rbbl01  {background-position: 0 -12px;}
+.rbbr01 {background-position: 100% -12px;}
+
+div.sbrb04 {width:100%; margin: 0 auto 12px auto; text-align: left;}
+.rbtl04, .rbtr04,.rbbl04, .rbbr04 {background-image: url(/web/20190210032714im_/http://borodino-hall.ru/_/_box/004.png); height: 12px; font-size: 1px;}
+.rbtl04, .rbbl04 {margin-right: 12px;}
+.rbtr04, .rbbr04 {margin-left: 12px; margin-top: -12px;}
+.rbtr04 {background-position: 100% 0;}
+.sbin04 {background-color:#F0F0F0; border-left: 1px solid #D2D2D2; border-right: 1px solid #D2D2D2; padding-left: 12px; padding-right:12px;}
+.rbbl04 {background-position: 0 -12px;}
+.rbbr04 {background-position: 100% -12px;}
+
+div.sbrb04c {width:100%; margin: 0 auto 12px auto; text-align: left;}
+.rbtl04c, .rbtr04c, .rbbl04c, .rbbr04c {background-image: url(/web/20190210032714im_/http://borodino-hall.ru/_/_box/004с.png); height: 12px; font-size: 1px;}
+.rbtl04c, .rbbl04c {margin-right: 12px;}
+.rbtr04c, .rbbr04c {margin-left: 12px; margin-top: -12px;}
+.rbtr04c {background-position: 100% 0;}
+.sbin04c {background-color:#f0eee8; padding-left: 12px; padding-right:12px;}
+.rbbl04c {background-position: 0 -12px;}
+.rbbr04c {background-position: 100% -12px;}
+
+div.sbrb04d {width:100%; margin: 0 auto 12px auto; text-align: left;}
+.rbtl04d, .rbtr04d, .rbbl04d, .rbbr04d {background-image: url(/web/20190210032714im_/http://borodino-hall.ru/_/_box/004d.png); height: 12px; font-size: 1px;}
+.rbtl04d, .rbbl04d {margin-right: 12px;}
+.rbtr04d, .rbbr04d {margin-left: 12px; margin-top: -12px;}
+.rbtr04d {background-position: 100% 0;}
+.sbin04d {background-color:#a9c9d6; padding-left: 12px; padding-right:12px;}
+.rbbl04d {background-position: 0 -12px;}
+.rbbr04d {background-position: 100% -12px;}
+
+div.sbrb11 {width:100%; margin: 0 auto 12px auto; text-align: left;}
+.rbtl11, .rbtr11,.rbbl11, .rbbr11 {background-image: url(/web/20190210032714im_/http://borodino-hall.ru/_/_box11.png); height: 12px; font-size: 1px;}
+.rbtl11, .rbbl11 {margin-right: 12px;}
+.rbtr11, .rbbr11 {margin-left: 12px; margin-top: -12px;}
+.rbtr11 {background-position: 100% 0;}
+.sbin11 {background-color:#FFFFFF; border-left: 1px solid #d2d2d2; border-right: 1px solid #d2d2d2; padding-left: 19px; padding-right:19px;}
+.rbbl11 {background-position: 0 -12px;}
+.rbbr11 {background-position: 100% -12px;}
+
+div.sbrb12 {width:100%; margin: 0 auto 0 auto; text-align:left;}
+.rbtl12, .rbtr12,.rbbl12, .rbbr12 {background-image: url(/web/20190210032714im_/http://borodino-hall.ru/_/_box/012.png); height: 6px; font-size: 1px;}
+.rbtl12, .rbbl12 {margin-right: 6px;}
+.rbtr12, .rbbr12 {margin-left: 6px; margin-top: -6px;}
+.rbtr12 {background-position: 100% 0;}
+.sbin12 {background-color:#6aaff0; padding-left: 6px; padding-right:6px;}
+.rbbl12 {background-position: 0 -6px;}
+.rbbr12 {background-position: 100% -6px;}
+
+div.sbrb13 {width:100%; margin: 0 auto 0 auto; text-align:left;}
+.rbtl13, .rbtr13,.rbbl13, .rbbr13 {background-image: url(/web/20190210032714im_/http://borodino-hall.ru/_/_box/013.png); height: 6px; font-size: 1px;}
+.rbtl13, .rbbl13 {margin-right: 6px;}
+.rbtr13, .rbbr13 {margin-left: 6px; margin-top: -6px;}
+.rbtr13 {background-position: 100% 0;}
+.sbin13 {background-color:#ff0000; padding-left: 6px; padding-right:6px;}
+.rbbl13 {background-position: 0 -6px;}
+.rbbr13 {background-position: 100% -6px;}
+
+div.sbrb14 {width:100%; margin: 0 auto 0 auto; text-align:left;}
+.rbtl14, .rbtr14,.rbbl14, .rbbr14 {background-image: url(/web/20190210032714im_/http://borodino-hall.ru/_/_box/014.png); height: 6px; font-size: 1px;}
+.rbtl14, .rbbl14 {margin-right: 6px;}
+.rbtr14, .rbbr14 {margin-left: 6px; margin-top: -6px;}
+.rbtr14 {background-position: 100% 0;}
+.sbin14 {background-color:#009933; padding-left: 6px; padding-right:6px;}
+.rbbl14 {background-position: 0 -6px;}
+.rbbr14 {background-position: 100% -6px;}
+
+div.sbrb15 {width:100%; margin: 0 auto 0 auto; text-align:left;}
+.rbtl15, .rbtr15,.rbbl15, .rbbr15 {background-image: url(/web/20190210032714im_/http://borodino-hall.ru/_/_box/015.png); height: 6px; font-size: 1px;}
+.rbtl15, .rbbl15 {margin-right: 6px;}
+.rbtr15, .rbbr15 {margin-left: 6px; margin-top: -6px;}
+.rbtr15 {background-position: 100% 0;}
+.sbin15 {background-color:#ff9797; padding-left: 6px; padding-right:6px;}
+.rbbl15 {background-position: 0 -6px;}
+.rbbr15 {background-position: 100% -6px;}
+
+
+div.sbrb20 {width:100%; margin: 0 auto 0 auto; text-align:left; 
+	background-color:#c1d5ea;
+	}
+.rbtl20, .rbtr20,.rbbl20, .rbbr20 {background-image: url(/web/20190210032714im_/http://borodino-hall.ru/_/_box/020.png); height: 6px; font-size: 1px;}
+.rbtl20, .rbbl20 {margin-right: 6px;}
+.rbtr20, .rbbr20 {margin-left: 6px; margin-top: -6px;}
+.rbtr20 {background-position: 100% 0;}
+.sbin20 {padding-top:6px; padding-bottom:6px; padding-left:12px; padding-right:12px;}
+.rbbl20 {background-position: 0 -6px;}
+.rbbr20 {background-position: 100% -6px;}
+
+div.sbrb41 {width:100%; margin: 0 auto 0 auto; text-align: left;}
+.rbtl41, .rbtr41,.rbbl41, .rbbr41 {background-image: url(/web/20190210032714im_/http://borodino-hall.ru/_/_box/041.png); height: 12px; font-size: 1px;}
+.rbtl41, .rbbl41 {margin-right: 12px;}
+.rbtr41, .rbbr41 {margin-left: 12px; margin-top: -12px;}
+.rbtr41 {background-position: 100% 0;}
+.sbin41 {border-left: 1px solid #d2d2d2; border-right: 1px solid #d2d2d2; padding-left: 12px; padding-right:12px;}
+.rbbl41 {background-position: 0 -12px;}
+.rbbr41 {background-position: 100% -12px;}
+
+div.sbrb42 {width:100%; margin: 0 auto 0 auto; text-align: left;}
+.rbtl42, .rbtr42,.rbbl42, .rbbr42 {background-image: url(/web/20190210032714im_/http://borodino-hall.ru/_/_box/042.png); height: 12px; font-size: 1px;}
+.rbtl42, .rbbl42 {margin-right: 12px;}
+.rbtr42, .rbbr42 {margin-left: 12px; margin-top: -12px;}
+.rbtr42 {background-position: 100% 0;}
+.sbin42 {padding-left: 12px; padding-right:12px;}
+.rbbl42 {background-position: 0 -12px;}
+.rbbr42 {background-position: 100% -12px;}
+
+
+div.alrsbrb {width:100%; margin: 0 auto 0 auto; text-align:left;
+	margin: 0 auto;
+	padding-top:1px;
+	font-size:12px;
+	color:#FFFFFF;
+}
+.alrrbtl, .alrrbtr, .alrrbbl, .alrrbbr {background-image: url(/web/20190210032714im_/http://borodino-hall.ru/_/auth/box_alert.png); height: 6px; font-size: 1px;}
+.alrrbtl, .alrrbbl {margin-right: 6px;}
+.alrrbtr, .alrrbbr {margin-left: 6px; margin-top: -6px;}
+.alrrbtr {background-position: 100% 0;}
+.alrsbin {background-color:#FF0000; padding-left: 6px; padding-right:6px; padding-left:14px; padding-right:14px;}
+.alrrbbl {background-position: 0 -6px;}
+.alrrbbr {background-position: 100% -6px;}
+div.alrsbrb a:link, div.alrsbrb a:active, div.alrsbrb a:visited {color: #FFFFFF; text-decoration:underline;}
+div.alrsbrb a:hover {color: #000000; text-decoration:none;}
+
+
+div.wrnsbrb {width:100%; margin: 0 auto 0 auto; text-align:left;
+	margin: 0 auto;
+	padding-top:1px;
+	font-size:12px;
+	color:#FFFFFF;
+}
+.wrnrbtl, .wrnrbtr, .wrnrbbl, .wrnrbbr {background-image: url(/web/20190210032714im_/http://borodino-hall.ru/_/auth/box_warning.png); height: 6px; font-size: 1px;}
+.wrnrbtl, .wrnrbbl {margin-right: 6px;}
+.wrnrbtr, .wrnrbbr {margin-left: 6px; margin-top: -6px;}
+.wrnrbtr {background-position: 100% 0;}
+.wrnsbin {background-color:#ff9797; padding-left: 6px; padding-right:6px; padding-left:14px; padding-right:14px;}
+.wrnrbbl {background-position: 0 -6px;}
+.wrnrbbr {background-position: 100% -6px;}
+div.wrnsbrb a:link, div.wrnsbrb a:active, div.wrnsbrb a:visited {color: #FFFFFF; text-decoration:underline;}
+div.wrnsbrb a:hover {color: #000000; text-decoration:none;}
+
+/*
+     FILE ARCHIVED ON 03:27:14 Feb 10, 2019 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 12:52:01 Nov 03, 2020.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  esindex: 0.013
+  PetaboxLoader3.datanode: 80.333 (5)
+  exclusion.robots: 0.209
+  captures_list: 126.609
+  CDXLines.iter: 24.999 (3)
+  load_resource: 234.561 (2)
+  RedisCDXSource: 1.05
+  exclusion.robots.policy: 0.194
+  LoadShardBlock: 96.403 (3)
+  PetaboxLoader3.resolve: 139.366 (3)
+*/

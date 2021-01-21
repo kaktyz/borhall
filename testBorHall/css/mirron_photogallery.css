@@ -1,0 +1,87 @@
+@charset "UTF-8";
+
+.mx_photogallery IMG {
+	border:1px solid #a9c9d6;
+	}
+
+#mirron_photogallery H3 {
+	font-size:18px;
+	font-weight:normal;
+	margin:0px;
+	padding:0px;
+	margin-bottom:5px;
+	}
+
+
+#tplPreview {
+
+	z-index:9999;
+	BORDER-RIGHT: #AAAAAA 1px solid;
+	PADDING-RIGHT: 15px;
+	BORDER-TOP: #AAAAAA 1px solid; 
+	PADDING-LEFT: 15px; 
+	FONT-SIZE: 12px; 
+	LEFT: 0px; 
+	PADDING-BOTTOM: 15px; 
+	BORDER-LEFT: #AAAAAA 1px solid; 
+	COLOR: #000000; 
+	PADDING-TOP: 12px; 
+	BORDER-BOTTOM: #AAAAAA 1px solid; 
+	POSITION: absolute; 
+	TOP: 0px; 
+	BACKGROUND-COLOR: #ffffff
+	}
+#tplPreviewTitle {
+	font-size:18px;
+	font-weight:normal;
+	margin:0px;
+	padding:0px;
+	margin-bottom:5px;
+	width:600px;
+	}
+#tplPreviewBody {POSITION: relative}
+#tplPreviewImage {margin:0px;}
+#tplPreviewCenter {text-align:center;}
+#tplPreviewProgressBar {
+	BORDER-RIGHT: #6a6a6a 1px solid; 
+	PADDING-RIGHT: 10px; 
+	BORDER-TOP: #6a6a6a 1px solid; 
+	PADDING-LEFT: 10px; 
+	FONT-SIZE: 12px; 
+	LEFT: 50%; 
+	PADDING-BOTTOM: 15px; 
+	MARGIN-LEFT: -67px; 
+	BORDER-LEFT: #6a6a6a 1px solid; 
+	WIDTH: 115px; 
+	COLOR: #000000; 
+	PADDING-TOP: 10px; 
+	BORDER-BOTTOM: #6a6a6a 1px solid; 
+	FONT-FAMILY: Arial, Tahoma, Verdana, Helvetica, sans-serif; 
+	POSITION: absolute; TOP: 45%; 
+	BACKGROUND-COLOR: #ffffff; 
+	TEXT-ALIGN: left;
+	}
+.rightcoltempl {MARGIN-LEFT: 5px; WIDTH: 236px}
+#tplPreviewText {margin:0px; padding:0px; margin-bottom:10px;}
+
+/*
+     FILE ARCHIVED ON 23:59:39 Feb 15, 2019 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 12:52:03 Nov 03, 2020.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 832.611
+  exclusion.robots: 0.088
+  exclusion.robots.policy: 0.081
+  RedisCDXSource: 18.746
+  esindex: 0.009
+  LoadShardBlock: 789.327 (3)
+  PetaboxLoader3.datanode: 189.729 (5)
+  CDXLines.iter: 21.389 (3)
+  PetaboxLoader3.resolve: 177.134 (4)
+  load_resource: 232.035 (2)
+*/

@@ -1,0 +1,132 @@
+@charset "UTF-8";
+
+html {font-size: 100%;}
+body {margin: 0;}
+a{text-decoration:none; outline: 0;}
+a:focus {outline:0;}
+h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+}
+h2 {
+    font-size: 1.5em;
+    margin: 0.83em 0;
+}
+h3 {
+    font-size: 1.17em;
+    margin: 1em 0;
+}
+h4 {
+    font-size: 1em;
+    margin: 1.33em 0;
+}
+h5 {
+    font-size: 0.83em;
+    margin: 1.67em 0;
+}
+h6 {
+    font-size: 0.75em;
+    margin: 2.33em 0;
+}
+abbr[title] {border-bottom: 1px dotted;}
+b, strong {font-weight: bold;}
+blockquote {margin: 1em 40px;}
+dfn {font-style: italic;}
+p, pre {margin: 1em 0;}
+code, kbd, pre, samp {
+    font-family: monospace, serif;
+    font-size: 1em;
+}
+pre {
+    white-space: pre;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+q {quotes: none;}
+q:before, q:after {
+    content: '';
+    content: none;
+}
+small {font-size: 80%;}
+sub, sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+}
+sup {top: -0.5em;}
+sub {bottom: -0.25em;}
+dl, menu, ol, ul {margin: 1em 0;}
+dd {margin: 0 0 0 40px;}
+menu, ol, ul {padding: 0 0 0 40px;}
+img {border: 0;}
+form {margin: 0;}
+fieldset {
+    border: 1px solid #c0c0c0;
+    margin: 0 2px;
+    padding: 0.35em 0.625em 0.75em;
+}
+legend {
+    border: 0;
+    padding: 0;
+    white-space: normal;
+}
+button, input, select, textarea {
+    font-size: 100%;
+	font-family: Arial, sans-serif;
+    margin: 0;
+    vertical-align: baseline;
+}
+button, input {line-height: normal;}
+button, input[type="reset"], input[type="submit"] {cursor: pointer;}
+button[disabled], input[disabled] {cursor: default;}
+input[type="checkbox"], input[type="radio"] {
+    box-sizing: border-box;
+    padding: 0;
+}
+textarea {
+    overflow: auto;
+    vertical-align: top;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+/* IE 7 fixes */
+*+html legend {margin-left: -7px;}
+*+html  button, *+html  input, *+html  select, *+html  textarea {vertical-align: middle;}
+*+html input[type="checkbox"], *+html input[type="radio"] {
+    height: 13px;
+    width: 13px;
+}
+*+html button, *+html input[type="reset"], *+html input[type="submit"] {overflow: visible;}
+
+.main-text {
+	background: #2b2a2a;
+	padding: 10px 10px 0 10px;
+	margin-bottom: 40px;
+	border-top: 1px #343434 solid;
+	color: #fff;
+}
+
+/*
+     FILE ARCHIVED ON 08:34:46 Feb 14, 2019 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 12:52:02 Nov 03, 2020.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  LoadShardBlock: 410.543 (3)
+  exclusion.robots: 0.184
+  esindex: 0.015
+  PetaboxLoader3.resolve: 165.404 (2)
+  captures_list: 463.192
+  CDXLines.iter: 44.804 (3)
+  PetaboxLoader3.datanode: 759.235 (5)
+  load_resource: 596.98 (2)
+  RedisCDXSource: 3.411
+  exclusion.robots.policy: 0.172
+*/

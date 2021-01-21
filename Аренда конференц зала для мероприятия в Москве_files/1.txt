@@ -1,0 +1,36 @@
+var _____WB$wombat$assign$function_____ = function(name) {return (self._wb_wombat && self._wb_wombat.local_init && self._wb_wombat.local_init(name)) || self[name]; };
+if (!self.__WB_pmw) { self.__WB_pmw = function(obj) { this.__WB_source = obj; return this; } }
+{
+  let window = _____WB$wombat$assign$function_____("window");
+  let self = _____WB$wombat$assign$function_____("self");
+  let document = _____WB$wombat$assign$function_____("document");
+  let location = _____WB$wombat$assign$function_____("location");
+  let top = _____WB$wombat$assign$function_____("top");
+  let parent = _____WB$wombat$assign$function_____("parent");
+  let frames = _____WB$wombat$assign$function_____("frames");
+  let opener = _____WB$wombat$assign$function_____("opener");
+
+_ate.track.config_resp({"pc":"shin","tool-config":{"_default":{"widgets":{"tmzv":{"countsFontSize":"60px","hideEmailSharingConfirmation":false,"counts":"one","widgetId":"tmzv","shareCountThreshold":10,"originalServices":"facebook_like,tweet,pinterest_pinit,google_plusone,counter","label":"SHARES","services":"vk,facebook,odnoklassniki_ru,addthis","__hideOnHomepage":false,"numPreferredServices":3,"size":"16px","borderRadius":"0px","titleFontSize":"18px","responsive":"979px","elements":".addthis_inline_share_toolbox_tmzv","counterColor":"#666666","iconColor":"#FFFFFF","creationTimestamp":1479382226363,"style":"responsive","hideDevice":"none","id":"shin","hideLabel":true},"telu":{"countsFontSize":"60px","hideEmailSharingConfirmation":true,"counts":"each","widgetId":"telu","shareCountThreshold":0,"originalServices":"facebook_like,tweet,pinterest_pinit,google_plusone,counter","services":"vk,facebook,twitter,google_plusone_share,odnoklassniki_ru,mymailru,blogger,pinterest_share,addthis","label":"SHARES","__hideOnHomepage":false,"numPreferredServices":6,"borderRadius":"16px","size":"20px","titleFontSize":"18px","elements":".addthis_inline_share_toolbox","responsive":"768px","creationTimestamp":1475403688823,"iconColor":"#FFFFFF","counterColor":"#666666","hideDevice":"none","style":"responsive","id":"shin","hideLabel":true,"toolName":"Inline Share Buttons"}}}},"subscription":{"active":true,"edition":"BASIC","tier":"basic","reducedBranding":false,"insightsEnabled":false},"customMessageTemplates":[],"pro-config":{"_default":{"widgets":{"shin":{"countsFontSize":"60px","hideEmailSharingConfirmation":true,"counts":"each","widgetId":"telu","shareCountThreshold":0,"originalServices":"facebook_like,tweet,pinterest_pinit,google_plusone,counter","services":"vk,facebook,twitter,google_plusone_share,odnoklassniki_ru,mymailru,blogger,pinterest_share,addthis","label":"SHARES","__hideOnHomepage":false,"numPreferredServices":6,"borderRadius":"16px","size":"20px","titleFontSize":"18px","elements":".addthis_inline_share_toolbox","responsive":"768px","creationTimestamp":1475403688823,"iconColor":"#FFFFFF","counterColor":"#666666","hideDevice":"none","style":"responsive","id":"shin","hideLabel":true,"toolName":"Inline Share Buttons"}}}}});
+
+}
+/*
+     FILE ARCHIVED ON 07:12:26 Mar 24, 2018 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 12:52:25 Nov 03, 2020.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  load_resource: 690.173
+  CDXLines.iter: 30.455 (3)
+  captures_list: 2412.731
+  LoadShardBlock: 2257.188 (3)
+  exclusion.robots: 0.185
+  PetaboxLoader3.datanode: 1340.289 (4)
+  exclusion.robots.policy: 0.172
+  PetaboxLoader3.resolve: 1490.85 (4)
+  esindex: 0.015
+  RedisCDXSource: 120.756
+*/
