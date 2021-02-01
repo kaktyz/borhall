@@ -508,6 +508,100 @@ h3, h4, h5, h6{
 *+html .bhl-clearfix{
     zoom: 1;
 }
+
+.salers {
+    background-color:  #2b2a2a;
+;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+
+}
+
+.saler {
+    width: 30%;
+    height: 650px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border: 1px solid #383530;
+    border-radius: 10px;
+    margin: 15px;
+}
+
+.saler>img {
+    width: 100%;
+    height: 400px;
+    border-radius: 10px;
+}
+
+.saler>salerDescr {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+
+.saler>salerDescr>name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+    font-family: Cambria;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #fff;
+
+}
+
+.saler>salerDescr>position {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 400;
+    color: #847d6b;
+}
+
+.saler>tel {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    text-decoration:none;
+
+}
+
+.saler a{
+    text-decoration:none;
+    color: #fff;
+}
+
+.saler>whatsapp {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    padding-left: 10px;
+
+
+
+}
+
+.saler>mail {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    color: #fff;
+
+    padding-left: 10px;
+
+}
 /* End IE7 Styles */
 
 
